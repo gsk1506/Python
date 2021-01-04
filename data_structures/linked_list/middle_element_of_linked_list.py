@@ -61,4 +61,4 @@ if __name__ == "__main__":
     for i in range(int(input().strip())):
         data = int(input().strip())
         link.push(data)
-    print(link.middle_element())
+    print("Middle Element of Linked List is",link.middle_element())

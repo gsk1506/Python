@@ -150,7 +150,7 @@ if __name__ == "__main__":
     for example_grid in (initial_grid, no_solution):
         print("\nExample grid:\n" + "=" * 20)
         print_solution(example_grid)
-        print("\nExample grid solution:")
+        print("\nExample grid solution:\n" + "=" * 20)
         solution = sudoku(example_grid)
         if solution is not None:
             print_solution(solution)
